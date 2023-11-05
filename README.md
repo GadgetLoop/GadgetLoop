@@ -28,8 +28,7 @@ This project is built using the following technologies and skills:
 * CSS
 * JavaScript (ES6+)
 * postgresql
-* react.js
-* tailwind react
+* react.js 
 
 
 Feel free to explore the code, contribute to the project, and provide feedback. We appreciate your interest and support.
