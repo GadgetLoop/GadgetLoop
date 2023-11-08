@@ -45,9 +45,9 @@ const addCartItem = async (req, res) => {
         const checkResult = await db.query(checkQuery, checkValues);
 
         if (checkResult.rows.length > 0) {
-            const insertQuery = 'UPDATE public.cart SET count=count+1 WHERE user_id = $1 AND product_id = $2';
-            const insertValues = [user_id, product_id];
-            await db.query(insertQuery,insertValues);
+            // const insertQuery = 'UPDATE public.cart SET count=count+1 WHERE user_id = $1 AND product_id = $2';
+            // const insertValues = [user_id, product_id];
+            // await db.query(insertQuery,insertValues);
   
             res.status(409).json({ message: 'add new item ' });
         } else {
